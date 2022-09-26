@@ -17,7 +17,7 @@ import openfl.Lib;
 
 using StringTools;
 
-#if cpp
+#if desktop
 import webm.WebmPlayer;
 #end
 
@@ -52,7 +52,7 @@ class VideoState2 extends MusicBeatState
 		if (frameSkipLimit != -1 && GlobalVideo.isWebm)
 		{
 			//GlobalVideo.getWebm().webm.SKIP_STEP_LIMIT = frameSkipLimit;	
-			WebmPlayer.SKIP_STEP_LIMIT = frameSkipLimit;
+		//	WebmPlayer.SKIP_STEP_LIMIT = frameSkipLimit;
 		}
 		#end
 	}
