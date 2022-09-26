@@ -17,11 +17,8 @@ import flixel.tweens.FlxTween;
 import openfl.geom.Point;
 import LoadingState.LoadingsState;
 import flixel.addons.transition.FlxTransitionableState;
-
-#if windows
 import Sys;
 import sys.FileSystem;
-#end
 
 import openfl.Lib;
 
