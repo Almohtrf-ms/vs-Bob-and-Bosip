@@ -17,10 +17,8 @@ import flixel.util.FlxColor;
 import lime.utils.Assets;
 import flixel.math.FlxPoint;
 import LoadingState.LoadingsState;
-#if windows
 import Sys;
 import sys.FileSystem;
-#end
 import openfl.Lib;
 
 #if windows
