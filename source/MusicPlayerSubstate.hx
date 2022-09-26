@@ -15,11 +15,10 @@ import flixel.tweens.FlxTween;
 import flixel.math.FlxMath;
 import openfl.geom.Point;
 import flixel.system.FlxSound;
-
-#if windows
-import Discord.DiscordClient;
 import Sys;
 import sys.FileSystem;
+#if windows
+import Discord.DiscordClient;
 #end
 
 class MusicPlayerSubstate extends MusicBeatSubstate
