@@ -23,7 +23,7 @@ import flixel.system.frontEnds.SoundFrontEnd;
 import Discord.DiscordClient;
 #end
 
-#if cpp
+#if desktop
 import webm.WebmPlayer;
 #end
 
