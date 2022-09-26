@@ -17,7 +17,7 @@ import flixel.addons.transition.FlxTransitionableState;
 
 import openfl.Lib;
 
-#if cpp
+#if desktop
 import webm.WebmPlayer;
 #end
 
