@@ -35,11 +35,10 @@ import lime.app.Application;
 import openfl.Assets;
 import flash.geom.Point;
 import D;
-
-#if windows
-import Discord.DiscordClient;
 import Sys;
 import sys.FileSystem;
+#if windows
+import Discord.DiscordClient;
 #end
 
 #if cpp
