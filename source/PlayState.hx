@@ -60,15 +60,12 @@ import lime.utils.Assets;
 import openfl.display.BlendMode;
 import openfl.display.StageQuality;
 import openfl.filters.ShaderFilter;
-
+import Sys;
+import sys.FileSystem;
 #if windows
 import Discord.DiscordClient;
 #end
-#if windows
-import Sys;
-import sys.FileSystem;
-#end
-
+	
 using StringTools;
 
 class PlayState extends MusicBeatState
@@ -7147,7 +7144,7 @@ class PlayState extends MusicBeatState
 
 	public function makeBackgroundTheVideo(source:String) // for background videos
 	{
-		#if cpp
+		#if desktop
 		useVideo = true;
 
 		FlxG.stage.window.onFocusOut.add(focusOut);
