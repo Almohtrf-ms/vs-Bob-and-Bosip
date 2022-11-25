@@ -49,6 +49,7 @@ jobs:
           haxelib --quiet install lime 7.9.0
           haxelib --quiet install openfl 9.1.0
           haxelib --quiet install hxCodec
+          haxelib install actuate
           haxelib --quiet --never install flixel
           haxelib --quiet run lime setup flixel
           haxelib --quiet install flixel-tools
@@ -56,6 +57,7 @@ jobs:
           haxelib --quiet install hscript
           haxelib --quiet install flixel-addons
           haxelib --quiet git hxCodec https://github.com/polybiusproxy/hxcodec
+          haxelib --quiet git extension-webm https://github.com/Sirox228/extension-webm --quiet
           haxelib --quiet git linc_luajit https://github.com/majigsaw77/linc_luajit.git
           haxelib --quiet git extension-androidtools https://github.com/majigsaw77/extension-androidtools.git
           haxelib list
